@@ -1,4 +1,3 @@
-/* Variables de color para usar en todo el proyecto */
 :root {
     --bat-black:  #101033;
     --bat-gray:   #060627;
@@ -6,16 +5,31 @@
     --bat-text:   #e0e0e0;
     --bat-border: #222225;
 }
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+html {
+    scroll-behavior: smooth;
+}
 body {
     background-color: var(--bat-black);
     color: var(--bat-text);
-    font-family: 'Segoe UI', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     overflow-x: hidden;
+    line-height: 1.6; 
+}
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+a {
+    text-decoration: none;
+    color: inherit;
 }
 #btn-menu {
     display: none;
