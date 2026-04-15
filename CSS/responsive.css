@@ -16,3 +16,11 @@
         grid-template-columns: 1fr;
     }
 }
+@media (max-width: 480px) {
+    .perfil-menu-grid {
+        grid-template-columns: 1fr; /* Una columna en celulares */
+    }
+    .menu-item.logout {
+        grid-column: span 1;
+    }
+}

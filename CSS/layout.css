@@ -42,3 +42,18 @@ header {
     background: var(--bat-black);
     z-index: 100;
 }
+.perfil-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+.perfil-menu-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Dos columnas */
+    gap: 15px;
+}
+.menu-item.logout {
+    grid-column: span 2; /* El botón de cerrar sesión ocupa todo el ancho */
+    border-color: #e74c3c;
+    color: #e74c3c;
+}

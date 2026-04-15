@@ -89,3 +89,48 @@
     align-items: center;
     gap: 10px;
 }
+.perfil-info {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.avatar-wrapper {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto 15px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid var(--bat-gold);
+}
+
+.avatar-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.user-name {
+    font-size: 1.8rem;
+    color: var(--bat-text);
+}
+
+.user-email {
+    color: #888;
+    margin-top: 5px;
+}
+.menu-item {
+    background: var(--bat-gray);
+    padding: 20px;
+    border-radius: 12px;
+    text-decoration: none;
+    color: var(--bat-text);
+    text-align: center;
+    border: 1px solid var(--bat-border);
+    transition: transform 0.2s, border-color 0.2s;
+}
+
+.menu-item:hover {
+    transform: translateY(-3px);
+    border-color: var(--bat-gold);
+}
+
