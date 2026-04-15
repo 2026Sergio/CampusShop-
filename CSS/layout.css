@@ -1,22 +1,18 @@
-/* SIDEBAR: Posición inicial fuera de pantalla */
 .sidebar {
     width: 280px;
     height: 100vh;
     background: var(--bat-gray);
     position: fixed;
     top: 0;
-    left: -280px; /* Escondido a la izquierda */
+    left: -280px; 
     z-index: 1000;
     border-right: 1px solid var(--bat-border);
-    transition: left 0.3s ease; /* Animación de deslizamiento */
+    transition: left 0.3s ease;
 }
-
-/* Acción de abrir: Si el checkbox está marcado, mueve el sidebar a left:0 */
 #btn-menu:checked ~ .sidebar {
     left: 0;
 }
 
-/* OVERLAY: Fondo negro que aparece al abrir el menú */
 .overlay {
     display: none;
     position: fixed;
