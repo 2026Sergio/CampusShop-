@@ -285,3 +285,89 @@
     font-size: 0.85rem;
     text-decoration: none;
 }
+.product-detail-container {
+    padding: 20px;
+}
+
+.main-product-view {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 50px;
+    background: var(--bat-gray);
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid var(--bat-border);
+}
+
+.product-img-box {
+    flex: 1;
+    min-width: 300px;
+}
+
+.main-img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.product-info-block {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.price {
+    font-size: 1.8rem;
+    color: var(--bat-gold);
+    font-weight: bold;
+}
+
+.description {
+    color: #bbb;
+    line-height: 1.6;
+}
+
+/* Selector de Tallas */
+.size-options {
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.size-btn {
+    padding: 8px 15px;
+    border: 1px solid var(--bat-border);
+    background: var(--bat-black);
+    color: var(--bat-text);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.size-btn.active {
+    border-color: var(--bat-gold);
+    color: var(--bat-gold);
+}
+
+.related-products {
+    margin-top: 40px;
+}
+
+.related-products h3 {
+    margin-bottom: 20px;
+    color: var(--bat-gold);
+}
+
+.back-arrow {
+    color: var(--bat-gold);
+    text-decoration: none;
+    margin-right: 15px;
+}
+.hamburguesa {
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: var(--bat-gold);
+    display: block; 
+}
