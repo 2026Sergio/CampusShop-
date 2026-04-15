@@ -214,4 +214,10 @@
     background: var(--bat-gold);
     color: #000;
 }
+.section-title {
+    margin: 20px;
+    font-size: 1.5rem;
+    color: var(--bat-gold);
+    text-align: center;
+}
 
