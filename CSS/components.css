@@ -220,4 +220,68 @@
     color: var(--bat-gold);
     text-align: center;
 }
-
+.perfil-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+    background: var(--bat-gray);
+    border-bottom: 1px solid var(--bat-border);
+}
+.hamburguesa-perfil {
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: var(--bat-gold);
+    display: none; /* Se activa en responsive.css */
+}
+.btn-regresar {
+    text-decoration: none;
+    color: var(--bat-gold);
+    font-size: 1.5rem;
+}
+.pedidos-list {
+    padding: 20px;
+}
+.pedido-card {
+    background: var(--bat-gray);
+    border: 1px solid var(--bat-border);
+    border-radius: 12px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+.pedido-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.orden-num {
+    font-weight: bold;
+    color: var(--bat-text);
+}
+.pedido-precio {
+    color: var(--bat-gold);
+    font-weight: bold;
+}
+.pedido-fecha {
+    font-size: 0.8rem;
+    color: #888;
+    margin-bottom: 10px;
+}
+.pedido-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid var(--bat-border);
+    padding-top: 10px;
+    margin-top: 10px;
+}
+.status { font-size: 0.85rem; font-weight: bold; }
+.status.entregado { color: #00c851; }
+.status.camino { color: #33b5e5; }
+.status.cancelado { color: #ff4444; }
+.btn-detalle {
+    color: var(--bat-gold);
+    font-size: 0.85rem;
+    text-decoration: none;
+}

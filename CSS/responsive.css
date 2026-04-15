@@ -34,3 +34,16 @@
         grid-template-columns: 1fr; 
     }
 }
+@media (max-width: 768px) {
+    .hamburguesa-perfil {
+        display: block; /* Aquí es donde aparece el ícono ☰ */
+    }
+
+    .perfil-header h2 {
+        font-size: 1.1rem;
+    }
+
+    .pedido-card {
+        padding: 12px;
+    }
+}
