@@ -24,3 +24,8 @@
         grid-column: span 1;
     }
 }
+@media (max-width: 850px) {
+    .cart-wrapper {
+        grid-template-columns: 1fr; /* Una columna en celulares */
+    }
+}

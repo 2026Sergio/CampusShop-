@@ -53,3 +53,14 @@ header {
     border-color: #e74c3c;
     color: #e74c3c;
 }
+.cart-container {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.cart-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 350px; /* Productos a la izquierda, resumen a la derecha */
+    gap: 30px;
+    align-items: start;
+}
