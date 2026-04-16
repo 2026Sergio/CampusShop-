@@ -7,6 +7,11 @@
     .grid-container {
         grid-template-columns: repeat(2, 1fr); 
     }
+    .btn-menu-estetico {
+        padding: 5px 15px; 
+        font-size: 0.95rem; 
+        max-width: 100%;    
+    }
 
     .cart-wrapper {
         grid-template-columns: 1fr; 
@@ -15,6 +20,11 @@
 @media (max-width: 480px) {
     header h1 {
         font-size: 1.1rem;
+    }
+    .btn-menu-estetico {
+        padding: 12px;     
+        font-size: 0.9rem;
+        border-radius: 30px; 
     }
     .grid-container {
         grid-template-columns: 1fr;
@@ -47,3 +57,5 @@
         padding: 12px;
     }
 }
+
+
