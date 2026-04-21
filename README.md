@@ -90,6 +90,6 @@ luego ver las opciones de telefono.
 ## Autor
 Desarrollado por: Sergio Ajú
 
-Año: 2026
+Año: abril de 2026
 
 
